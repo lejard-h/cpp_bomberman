@@ -1,0 +1,40 @@
+//
+// main.cpp for  in /home/lelabo_m/rendu/cpp_bomberman/GameEngine/Graphic/example
+//
+// Made by Marc Le Labourier
+// Login   <lelabo_m@epitech.net>
+//
+// Started on  Fri May 23 16:02:58 2014 Marc Le Labourier
+// Last update Fri May 23 17:11:07 2014 Marc Le Labourier
+//
+
+#include <unistd.h>
+#include "GraphicContext.hh"
+#include "KeyboardManager.hh"
+
+int	main()
+{
+  glm::mat4 projection;
+  glm::mat4 transformation;
+  projection = glm::perspective(60.0f, 800.0f / 600.0f, 0.1f, 100.0f);
+  transformation = glm::lookAt(glm::vec3(0, 10, -30), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
+  Graphic::OGLContext	cont(projection, transformation);
+  cont.Init(800, 600);
+  sleep(1);
+
+
+/*
+	std::cout << "Statring keyboard tests" << std::endl;
+	KeyboardManager keyboard;
+	gdl::SdlContext context	= cont.GetContext();
+	gdl::Input 		input 	= cont.GetInput();
+
+  	while (42)
+  	{
+  		keyboard.updateValue(input);
+  		keyboard.displayUsedKey();
+  		context.updateInputs(input);
+  		keyboard.setValue(false);
+  	}
+*/
+}

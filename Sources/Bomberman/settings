@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="10">
+<Settings class_id="0" tracking_level="1" version="0" object_id="_0">
+	<GameState>3</GameState>
+	<NbPlayers>2</NbPlayers>
+	<Players class_id="4" tracking_level="0" version="0">
+		<count>2</count>
+		<item_version>0</item_version>
+		<item class_id="2" tracking_level="1" version="0" object_id="_1">
+			<Name></Name>
+			<InputConf class_id="3" tracking_level="1" version="0" object_id="_2">
+				<InputType>0</InputType>
+				<InputType>32735</InputType>
+				<Id>381650872</Id>
+				<Keyconf class_id="5" tracking_level="0" version="0">
+					<count>5</count>
+					<item_version>0</item_version>
+					<item class_id="6" tracking_level="0" version="0">
+						<first>32</first>
+						<second>bomb</second>
+					</item>
+					<item>
+						<first>1073741903</first>
+						<second>right</second>
+					</item>
+					<item>
+						<first>1073741904</first>
+						<second>left</second>
+					</item>
+					<item>
+						<first>1073741905</first>
+						<second>down</second>
+					</item>
+					<item>
+						<first>1073741906</first>
+						<second>up</second>
+					</item>
+				</Keyconf>
+			</InputConf>
+			<Character>381650872</Character>
+		</item>
+		<item class_id_reference="2" object_id="_3">
+			<Name></Name>
+			<InputConf class_id_reference="3" object_id="_4">
+				<InputType>1</InputType>
+				<InputType>32735</InputType>
+				<Id>0</Id>
+				<Keyconf>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>
+						<first>97</first>
+						<second>left</second>
+					</item>
+					<item>
+						<first>100</first>
+						<second>right</second>
+					</item>
+					<item>
+						<first>115</first>
+						<second>down</second>
+					</item>
+					<item>
+						<first>119</first>
+						<second>up</second>
+					</item>
+				</Keyconf>
+			</InputConf>
+			<Character>0</Character>
+		</item>
+	</Players>
+	<NbIa>5</NbIa>
+	<IaLevel>0</IaLevel>
+	<Map class_id="1" tracking_level="1" version="0" object_id="_5">
+		<Type>1</Type>
+		<Path>../Map/Map1.map</Path>
+		<X>20</X>
+		<Y>20</Y>
+	</Map>
+	<GameMode>0</GameMode>
+	<LaunchType>32716</LaunchType>
+	<Conf class_id="7" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</Conf>
+	<Volume>-2.3497429</Volume>
+</Settings>
+</boost_serialization>
+
